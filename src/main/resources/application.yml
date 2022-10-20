@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/empathy?useSSL=false&serverTimezone=UTC
+    username: ${EMPATHY_DB_USERNAME}
+    password: ${EMPATHY_DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
